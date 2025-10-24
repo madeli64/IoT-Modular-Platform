@@ -22,12 +22,23 @@ sdkconfig text eol=lf
 *.ps1 text eol=crlf
 
 # Binary files should never be modified by Git
-*.bin binary
-*.elf binary
 *.jpg binary
 *.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
 *.pdf binary
+*.bin binary
+*.elf binary
+*.exe binary
 *.zip binary
+*.tar binary
+*.gz binary
+*.pptx binary
+*.docx binary
 
 # Ensure consistent handling for CMakeLists and build system
 CMakeLists.txt text eol=lf
+
+# Normalize text files to LF
+* text=auto
