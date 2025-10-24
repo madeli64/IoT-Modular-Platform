@@ -50,7 +50,7 @@ The firmware runs on **ESP-IDF (FreeRTOS)** and communicates with AWS IoT Core o
      ┌─────────────────────────┼──────────────────────────┐
      │ Sensor Node A           │ Sensor B   │ Sensor C    │
      │ (temp, door)            │ (light)    │ (humidity)  │
-     └─────────────────────────┴────────────┴──────────────┘
+     └─────────────────────────┴────────────┴─────────────┘
 ```
 
 ---
